@@ -1,110 +1,171 @@
 body {
-    font-family: "Work Sans", sans-serif;
-  }
-  .banner {
-    background-image: url("./images/banner/banner1.png");
-    padding: 250px 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-  
-  .banner-text {
-    text-align: right;
-  }
-  
-  .contact-btn {
-    background-color: #f15b22;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
-  
-  .header-text {
-    height: 500px;
-    width: 500px;
-    margin-left: auto;
-    padding: 100px;
-    display: inline-block;
-    justify-content: center;
-  }
-  .header-heading {
-    font-size: 40px;
-  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .first-section {
-    width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .first-section-text {
-    width: 400px;
-    margin-left: auto;
-  }
-  .first-section-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-  }
-  .tick {
-    height: 15px;
-    width: 15px;
-    margin-right: 10px;
-  }
-  .coourses-head {
-    text-align: center;
-    font-weight: 900;
-  }
-  .second-head {
-    text-align: center;
-    font-size: 40px;
-  }
-  .allcourses {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .mindset {
-    background-image: url("./images/watch.png") , url("./images/gradient2.png");
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding: 100px 50px;
-    margin: 50px auto;
-    width: 1140px;
-    color: white;
-    border-radius: 15px;
-  }
-  
-  .call-now {
-    background-color: white;
-    color: #f15b22;
-    border: none;
-    padding: 10px 15px;
-    font-weight: 700;
-    border-radius: 5px;
-  }
-  
-  .footer-section {
-    padding: 80px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .subscribe-field {
-    padding: 10px 5px;
-    background: none;
-    border-color: white;
-    display: block;
-    margin-bottom: 10px;
-    color: white;
-  }
+  font-family: "Work Sans", sans-serif;
+}
+
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.banner {
+  background-image: url("./images/banner/banner1.png");
+  padding: 250px 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-text {
+  text-align: right;
+}
+
+.contact-btn {
+  background-color: #f15b22;
+  color: white;
+  border: none;
+  padding: 25px 20px;
+  border-radius: 5px;
+}
+
+.header-text {
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  padding: 100px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.header-heading {
+  font-size: 40px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#failures .failures-section {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#failures .failures-section-text {
+  width: 400px;
+  margin-left: auto;
+}
+
+#failures .failures-section-list {
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tick {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.coourses-head {
+  text-align: center;
+  font-weight: 900;
+}
+
+.plans-head {
+  text-align: center;
+}
+
+.allcourses {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mindset {
+  background-image: url("./images/watch.png"), url("./images/gradient2.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 50px;
+  margin: 50px auto;
+  width: 1140px;
+  color: white;
+  border-radius: 15px;
+}
+
+.call-now {
+  background-color: white;
+  color: #f15b22;
+  border: none;
+  padding: 10px 15px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.footer-section {
+  padding: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-field {
+  padding: 10px 5px;
+  background: none;
+  border-color: white;
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+
+.banner-para {
+  font-size: 20px;
+}
+
+.banner-heading {
+  font-size: 50px;
+}
+
+.failure-para {
+  font-size: 18px;
+}
+
+.goal-section {
+  text-align: center;
+}
+
+.card-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 10px;
+  width: 30%;
+  margin: auto;
+  border: 2px solid rosybrown;
+  border-radius: 15px;
+}
+
+.name{
+  font-size:24px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.description{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.card-image {
+  width: 100%;
+  height: 250px;
+}
